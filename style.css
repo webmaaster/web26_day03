@@ -1,0 +1,64 @@
+/* 
+call the element by it's name example - h2{color:blue;}
+call the element by it's class - .className{color:blue;}
+call the element by it's ID - #idName{color:blue;}
+Descendent Selectors example - nav a{color: green;}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer|Red+Hat+Text&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  max-width:100%;
+}
+body{
+  font-family: 'Red Hat Text', sans-serif;
+  line-height:1.5;
+}
+section, footer{
+  padding: 4% 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Lacquer', sans-serif;
+  font-size:35px;
+  text-align:center;
+  letter-spacing:3px;
+}
+h1{
+  color:#ff9f65;
+  font-size:50px;
+}
+h4{
+  color:#49d6c3;
+}
+
+/*header styles*/
+header{
+  background-image:url('../images/background.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:100vh;
+}
+nav{
+  text-align:center;
+}
+nav a{
+  color:#ff9f65;
+  text-decoration:none;
+  letter-spacing:3px;
+}
+nav a:hover{
+  color:#49d6c3;
+}
+
+
+
+/*footer styles*/
+footer{
+  background-color:#8e75c4;
+  color:#feecc4;
+  text-align:center;
+}
